@@ -1,0 +1,6 @@
+export const OPEN_TEST = 'OPEN_TEST';
+export const GET_TEST_DATA = 'GET_TEST_DATA';
+export const GET_TEST_INFO = 'GET_TEST_INFO';
+export const FETCH_DATA_BEGIN = 'FETCH_DATA_BEGIN';
+export const FETCH_DATA_SUCCESS = 'FETCH_DATA_SUCCESS';
+export const FETCH_DATA_FAILURE = 'FETCH_DATA_FAILURE';

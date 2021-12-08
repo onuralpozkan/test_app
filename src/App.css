@@ -1,0 +1,29 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-title h1 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+.app-menu {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  background-color: #efefef;
+  padding:1rem;
+  padding-top: 0;
+}
+.app-menu div {
+  margin-right: 1rem;
+}
+@media screen and (min-width:800px) {
+  .app-menu {
+    width: 80%;
+    padding: 2rem;
+    padding-top: .5rem;
+  }
+}
