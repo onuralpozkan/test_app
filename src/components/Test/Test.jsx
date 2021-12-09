@@ -3,6 +3,7 @@ import { startTest } from '../../store/Actions/testCardActions';
 import { useState } from 'react';
 import './Test.css';
 import backIcon from '../../assets/icons/back.svg';
+import { saveResult } from '../../utils/saveResult';
 
 const Test = ({ questions }) => {
   const testInfo = useSelector(state => state.testCardReducer.testInfo)
@@ -42,6 +43,9 @@ const Test = ({ questions }) => {
     }
     let wrongCount = questions.length - (correctCount + emptyCount); 
     setResult({ correctCount, wrongCount, emptyCount })
+
+    const resultData = {testInfo,wrongCount,correctCount,emptyCount};
+    saveResult(resultData);
   }
   return (
     <div className="test" style={{ margin:'0px auto' }}>
