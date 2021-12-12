@@ -1,0 +1,66 @@
+.button {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 10px 0px #7e7e7e80;
+  -moz-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 10px 0px #7e7e7e80;
+  box-shadow: 0px 10px 13px -7px #000000, 0px 5px 10px 0px #7e7e7e80;
+}
+.button:active {
+  -webkit-box-shadow: inset 2px 2px 10px 0px #4b4b4b !important;
+  -moz-box-shadow: inset 2px 2px 10px 0px #4b4b4b !important;
+  box-shadow: inset 2px 2px 10px 0px #4b4b4b !important;
+}
+.light {
+  color: #000;
+  background-color: #fff;
+}
+.light:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px #8b8b8b, 0px 5px 10px 0px #7e7e7e2c;
+  box-shadow: 0px 10px 13px -7px #8b8b8b, 0px 5px 10px 0px #7e7e7e2c;
+}
+.primary {
+  background-color: #1a7cec;
+}
+.primary .button-icon {
+  filter: invert();
+}
+.warning {
+  background-color: #e6d116;
+  color: #000;
+}
+.success {
+  background-color: #26cc17;
+  color: #000;
+}
+.danger {
+  background-color: #c21717;
+}
+.danger .button-icon {
+  filter: invert();
+}
+.block {
+  justify-content: center;
+  width: 100%;
+}
+img.button-icon {
+  min-width: 24px;
+  min-height: 24px;
+  max-width: 28px;
+  max-height: 28px;
+}
+img.space {
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,78 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+.results-modal {
+  background-color: #fff;
+  width: 80%;
+  max-width: 600px;
+  min-height: 300px;
+  padding: 1rem;
+  z-index: 6;
+  position: absolute;
+  top: 25%;
+  transform: translateY(-200%);
+  transition: transform .5s ease-in;
+}
+.open-modal {
+  transform: translateY(0);
+}
+.results-modal h1 {
+  text-align: center;
+}
+.results-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: calc(12px + 1vmin);
+  width: 100%;
+ 
+}
+
+.results-table td,.results-table th {
+  border: 1px solid #ccc;
+  padding: .5rem 1rem;
+}
+.results-table td:first-child {
+  text-align: center;
+}
+.results-table tr:nth-child(2n) {
+  background-color: #eee;
+}
+tr:hover {
+  background-color: #bbb !important;
+}
+.results-table th {
+  background-color: #129c30;color: #fff;
+}
+.results-table td {
+  text-align: right;
+}
+button.close-btn {
+  display: block;
+  border: none;
+  width: 36px;
+  height: 36px;
+  font-size: 1rem;
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+button.close-btn:hover {
+  background-color: #e43535;
+  box-shadow: 0px 4px 4px #aaa;
+}
+button.delete-btn {
+  display: block;
+  width: 50%;
+  padding: .5rem 1rem;
+  margin: 2rem auto;
+  font-size: 1.25rem;
+  
+}
