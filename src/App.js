@@ -10,6 +10,7 @@ import { openModal } from './store/Actions/modalActions';
 import { Button } from './components/Button/Button';
 
 import deleteIcon from './assets/icons/delete.svg';
+import resultsIcon from './assets/icons/results.svg';
 
 function App() {
   const dispatch = useDispatch();
@@ -29,7 +30,9 @@ function App() {
         <h1>Test App</h1>
       </div>
       <div className="app-menu">
-        {JSON.parse(localStorage.getItem('result')) !== null ? <button className="result-btn" onClick={()=> dispatch(openModal())}>Past Results</button> : null}
+        <span className="result-btn">
+        {JSON.parse(localStorage.getItem('result')) !== null ? <Button icon={resultsIcon} label='Past Results' className="success" handleClick={()=> dispatch(openModal())} /> : null}
+        </span>
         {singleTestArr.length === 0 ? (
           testCards
         ) : (
@@ -37,7 +40,7 @@ function App() {
         )}
       </div>
        <PastResults />
-       <Button icon={deleteIcon} isBlock={false} clsName='light' />
+       <Button icon={deleteIcon} label='Dügme' />
     </div>
   );
 }

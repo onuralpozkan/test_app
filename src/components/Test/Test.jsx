@@ -2,8 +2,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { startTest } from '../../store/Actions/testCardActions';
 import { useState } from 'react';
 import './Test.css';
-import backIcon from '../../assets/icons/back.svg';
+import returnIcon from '../../assets/icons/return.svg';
+import acceptIcon from '../../assets/icons/accept.svg';
 import { saveResult } from '../../utils/saveResult';
+import { Button } from '../Button/Button';
+
 
 const Test = ({ questions }) => {
   const testInfo = useSelector(state => state.testCardReducer.testInfo)
@@ -64,10 +67,10 @@ const Test = ({ questions }) => {
         </ul>
       </form>
       ))}
-      <button className="back-btn" onClick={()=>dispatch(startTest([]))}>
-        <img src={backIcon} alt="Back To Home Page" />
-      </button>
-      <button type="submit" form="test-form" className="submit-btn">ONAYLA</button>
+      <span className='back-btn'>
+        <Button icon={returnIcon} clsName='warning' handleClick={()=>dispatch(startTest([]))} />
+      </span>
+      <Button icon={acceptIcon} clsName='primary' isBlock label='Submit' handleClick={handleSubmit}/>
     </div>
   );
 };

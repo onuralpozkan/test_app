@@ -13,6 +13,9 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.button span {
+  white-space: nowrap;
+}
 .button:hover {
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 10px 0px #7e7e7e80;
   -moz-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 10px 0px #7e7e7e80;

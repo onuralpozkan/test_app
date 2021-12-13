@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import './PastResults.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { closeModal } from '../../store/Actions/modalActions';
+import { Button } from '../Button/Button';
+import deleteIcon from '../../assets/icons/delete.svg';
+import timesIcon from '../../assets/icons/times.svg';
 const PastResults = () => {
   const dispatch = useDispatch();
   const [pastResults, setPastResults] = useState([]);
@@ -44,12 +47,11 @@ const PastResults = () => {
           </thead>
           <tbody>{resultRows}</tbody>
         </table>
-        <button className="close-btn" onClick={() => dispatch(closeModal())}>
-          X
-        </button>
-        <button className="delete-btn" onClick={handleDelete}>
-          Delete Past
-        </button>
+        <span className="close-btn" onClick={() => dispatch(closeModal())}>
+         <Button icon={timesIcon} clsName='light' handleClick={() => dispatch(closeModal())}/>
+        </span>
+
+        <Button icon={deleteIcon} label='Delete' clsName='danger' handleClick={handleDelete}/>
       </div>
     </>
   );
