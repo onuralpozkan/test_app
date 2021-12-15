@@ -29,7 +29,15 @@ function App() {
       </div>
       <div className="app-menu">
         <span className="result-btn">
-        {JSON.parse(localStorage.getItem('result')) !== null && singleTestArr !== [] ? <Button icon={resultsIcon} label='Past Results' clsName="info" handleClick={()=> dispatch(openModal())} /> : null}
+          {JSON.parse(localStorage.getItem('result')) !== null &&
+          singleTestArr !== [] ? (
+            <Button
+              icon={resultsIcon}
+              label="Past Results"
+              clsName="info"
+              handleClick={() => dispatch(openModal())}
+            />
+          ) : null}
         </span>
         {singleTestArr.length === 0 ? (
           testCards
@@ -37,7 +45,7 @@ function App() {
           <Test questions={singleTestArr} />
         )}
       </div>
-       <PastResults />
+      <PastResults />
     </div>
   );
 }
