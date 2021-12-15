@@ -10,7 +10,7 @@ const Card = ({ test, uuid,description, imgUrl, questions, isLoading, groupId })
     dispatch(getTestInfo({uuid,test}))
   }
   const card = (<>
-   <img className="card-photo" src={imgUrl} alt={`${test} - Cover`} />
+   <img className="card-photo" src={imgUrl} alt={`${test} - Cover`}/>
   <span className="card-badge" style={{backgroundColor: color(groupId)}}>Total Questions: {questions.length}</span>
   <div className="card-content" style={{backgroundColor: color(groupId)}}>
     <h3>{test}</h3>

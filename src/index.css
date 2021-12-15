@@ -1,5 +1,10 @@
 :root {
   box-sizing: border-box;
+  --primary-color:#1976d2;
+  --danger-color:#d32f2f;
+  --warning-color:#f1b618;
+  --info-color: #0288d1;
+  --success-color:#4caf50;
 }
 *, *::after, *::before {
   box-sizing: border-box;
@@ -9,4 +14,7 @@ body {
   font-family:'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.body-overflow {
+  overflow: hidden;
 }

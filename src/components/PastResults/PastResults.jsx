@@ -11,6 +11,10 @@ const PastResults = () => {
   const modalState = useSelector((state) => state.modalReducer.isModalOpen);
 
   useEffect(() => {
+    // Not scroll in modal
+    window.scrollTo(0,0);
+    document.querySelector('body').className = modalState ? "body-overflow" : '';
+
     if (localStorage.getItem('result') !== null) {
       setPastResults(JSON.parse(localStorage.getItem('result')));
     }

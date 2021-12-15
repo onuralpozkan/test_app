@@ -46,7 +46,7 @@ tr:hover {
   background-color: #bbb !important;
 }
 .results-table th {
-  background-color: #129c30;
+  background-color: var(--success-color);
   color: #fff;
 }
 .results-table td {

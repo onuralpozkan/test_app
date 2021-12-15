@@ -1,0 +1,42 @@
+.result-table tr td:first-child {
+  font-weight: 600;
+}
+.result-table tr td:last-child {
+  font-weight: 700;
+  text-align: center;
+}
+.result-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.25rem;
+}
+.result-table td {
+  padding: .5rem 1rem;
+  border:  1px solid black;
+}
+.results {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: auto;
+  padding: 1rem;
+  border-radius: 2px;
+  box-shadow: 0px 4px 8px #666;
+  transition: all .3s ease;
+}
+.results h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.toggleResult {
+  transform: translateX(-100%);
+
+}
+.show-btn {
+  position: absolute;
+  right: -102px;
+  bottom: 0;
+}

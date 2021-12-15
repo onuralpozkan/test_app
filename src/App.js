@@ -1,15 +1,13 @@
 import './App.css';
 import Card from './components/Card/Card.jsx';
 import { useSelector } from 'react-redux';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Test from './components/Test/Test.jsx';
 import { fetchData } from './store/Actions/testDataActions.js';
 import PastResults from './components/PastResults/PastResults';
 import { openModal } from './store/Actions/modalActions';
 import { Button } from './components/Button/Button';
-
-import deleteIcon from './assets/icons/delete.svg';
 import resultsIcon from './assets/icons/results.svg';
 
 function App() {
@@ -31,7 +29,7 @@ function App() {
       </div>
       <div className="app-menu">
         <span className="result-btn">
-        {JSON.parse(localStorage.getItem('result')) !== null ? <Button icon={resultsIcon} label='Past Results' className="success" handleClick={()=> dispatch(openModal())} /> : null}
+        {JSON.parse(localStorage.getItem('result')) !== null && singleTestArr !== [] ? <Button icon={resultsIcon} label='Past Results' clsName="info" handleClick={()=> dispatch(openModal())} /> : null}
         </span>
         {singleTestArr.length === 0 ? (
           testCards
@@ -40,7 +38,6 @@ function App() {
         )}
       </div>
        <PastResults />
-       <Button icon={deleteIcon} label='Dügme' />
     </div>
   );
 }

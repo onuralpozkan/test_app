@@ -35,23 +35,27 @@
   box-shadow: 0px 10px 13px -7px #8b8b8b, 0px 5px 10px 0px #7e7e7e2c;
 }
 .primary {
-  background-color: #1a7cec;
+  background-color: var(--primary-color);
 }
 .primary .button-icon {
   filter: invert();
 }
 .warning {
-  background-color: #e6d116;
+  background-color: var(--warning-color);
   color: #000;
 }
 .success {
-  background-color: #26cc17;
+  background-color: var(--success-color);
   color: #000;
 }
 .danger {
-  background-color: #c21717;
+  background-color: var(--danger-color);
 }
-.danger .button-icon {
+.info {
+  background-color: var(--info-color);
+}
+.danger .button-icon,
+.info .button-icon {
   filter: invert();
 }
 .block {

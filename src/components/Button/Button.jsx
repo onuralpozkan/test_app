@@ -12,7 +12,7 @@ Button.defaultProps = {
   isBlock: false,
 }
 Button.propTypes = {
-  clsName: PropTypes.oneOf(['primary', 'danger', 'secondary', 'success', 'light']).isRequired,
+  clsName: PropTypes.oneOf(['primary','info','warning','danger', 'success', 'light']).isRequired,
   label: PropTypes.string,
   handleClick: PropTypes.func.isRequired,
   isBlock: PropTypes.bool,

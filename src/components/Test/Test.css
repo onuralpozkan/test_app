@@ -1,5 +1,24 @@
 .selected {
-  background-color: purple;
+  background-color: var(--info-color);
+}
+.correct-answer {
+  background-color: var(--success-color);
+}
+.selected.correct-answer::after {
+  content: '';
+  background-image: url('../../assets/icons/correct.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 0.5rem;
+}
+.selected span {
+  background: none;
 }
 ul.question {
   list-style: none;
@@ -10,6 +29,7 @@ ul.question {
 }
 ul.question li {
   padding: 0.25rem 0.5rem;
+  position: relative;
 }
 li.question-title {
   font-weight: bold;
@@ -18,18 +38,31 @@ li.question-title {
 li.answer {
   margin-top: 0.5rem;
   font-size: 1rem;
-  width: 100%;
   margin-left: 1rem;
 }
 label {
-  width: 400px;
-  padding: 0.25rem 1rem;
-  padding-bottom: 0.5rem;
+  display: inline-block;
+  min-height: 24px;
   border-radius: 2px;
-}
-label:hover {
-  background-color: red;
   cursor: pointer;
+  font-size: 1.125rem;
+}
+label span {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  border-radius: 2px;
+  padding: 0.2rem;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+label:hover > span {
+  background-color: var(--danger-color);
+}
+label.selected:hover > span {
+  background-color: transparent !important;
 }
 input[type='radio'] {
   visibility: hidden;
@@ -39,7 +72,7 @@ div.test {
 }
 span.back-btn {
   position: absolute;
-  right:-1rem;
+  right: -1rem;
   top: 0;
 }
 h1.test-title {
