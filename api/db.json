@@ -4,7 +4,7 @@
       "test": "English",
       "uuid": 1,
       "groupId":1,
-      "description": "English Beginner Test",
+      "description": "Beginner Test - 1",
       "imgUrl": "assets/images/cover_eng.svg",
       "questions": [
         {
@@ -55,47 +55,200 @@
       ]
     },
     {
-      "test": "French",
-      "uuid": 2,
-      "groupId":2,
-      "description": "French Beginner Test",
-      "imgUrl": "assets/images/cover_fr.svg",
+      "test": "English",
+      "uuid": 11,
+      "groupId":1,
+      "description": "Beginner Test - 2",
+      "imgUrl": "assets/images/cover_eng.svg",
       "questions": [
         {
           "id": 0,
-          "question": "French Qusetion 1.",
-          "a": "'m going to work with",
-          "b": "'m going to work by",
-          "c": "go to work with,go to work with,go to work with,go to work with,go to work with",
-          "d": "go to work by",
+          "question": "The achievements of Sherlock Holmes, the most famous fictional detective in history, derive from his ---- to balance the physical evidence of a case with the more challenging subjective truths into a single coherent judgement.",
+          "a": "capability",
+          "b": "prejudice",
+          "c": "deception",
+          "d": "resistance",
           "answer": "a"
         },
         {
           "id": 1,
-          "question": "Sorry, but this chair is____.",
-          "a": "me",
-          "b": "mine",
-          "c": "my",
-          "d": "our",
+          "question": "In 1558, Queen Mary I of England was persuaded by her husband, King Philip II of Spain, to join him in a renewed war with France, which proved ---- for England as it led to the loss of Calais, England’s last foothold in continental Europe",
+          "a": "compatible",
+          "b": "vulnerable",
+          "c": "predictable",
+          "d": "disastrous",
+          "answer": "d"
+        },
+        {
+          "id": 2,
+          "question": "Serotonin is responsible for maintaining appetite, sleep, and mood balance, but a deficit of it ---- depression",
+          "a": "brings about",
+          "b": "takes over",
+          "c": "keeps on",
+          "d": "gives off",
+          "answer": "a"
+        },
+        {
+          "id": 3,
+          "question": "The term 'Geography' formally applies to an academic discipline that ---- the study of the Earth’s surface, its inhabitants, and more recently, its environment.",
+          "a": "attaches",
+          "b": "encompasses",
+          "c": "inhabits",
+          "d": "occupies",
+          "answer": "b"
+        },
+        {
+          "id": 4,
+          "question": "Food is portrayed in a judgemental way ---- the media, and some popular diets use expensive ingredients that are not kind ---- the environment. ",
+          "a": "over / for",
+          "b": "as / across",
+          "c": "from / at",
+          "d": "in / to",
+          "answer": "d"
+        },
+        {
+          "id": 5,
+          "question": "---- bacteria were discovered in the 17th century, infectious diseases were thought to be caused by sickly smells",
+          "a": "Once",
+          "b": "Given that",
+          "c": "Since",
+          "d": "Until",
+          "answer": "d"
+        },
+        {
+          "id": 6,
+          "question": "On the black market, prices of ---- thousand dollars are paid for the extremely rare hyacinth macaw, which is ---- sought after by enthusiasts.",
+          "a": "any / a lot",
+          "b": "each / neither",
+          "c": "several / much",
+          "d": "some / a little",
+          "answer": "c"
+        },
+        {
+          "id": 7,
+          "question": "Human hearing is not ---- sensitive ---- that of a bat or a dog, but human beings make a wide range of sounds.",
+          "a": "both / and",
+          "b": "neither / nor",
+          "c": "as / as",
+          "d": "wether / or",
+          "answer": "c"
+        },
+        {
+          "id": 8,
+          "question": "---- being the second largest oil-producing state in the US after Alaska, Texas is rich in iron ore, magnesium, uranium and other minerals.",
+          "a": "as well as",
+          "b": "as opposed to",
+          "c": "rather than",
+          "d": "in spite of",
+          "answer": "a"
+        },
+        {
+          "id": 9,
+          "question": "The moment the first stars ---- is one of the most evocative milestones in the evolution of the cosmos – it marks the beginning of the age of light, the moment when the Universe ---- recognisable to us",
+          "a": "were born / would have become",
+          "b": "are being born / might become",
+          "c": "had been bord / will become",
+          "d": "are born / should become",
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "test": "French",
+      "uuid": 2,
+      "groupId":2,
+      "description": "Beginner Test",
+      "imgUrl": "assets/images/cover_fr.svg",
+      "questions": [
+        {
+          "id": 0,
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: Bonjour monsieur, ______________ le journaliste ?",
+          "a": "tu es",
+          "b": "ils sont",
+          "c": "on est",
+          "d": "vous étes",
+          "answer": "d"
+        },
+        {
+          "id": 1,
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: Marguerite est _______________ au restaurant.",
+          "a": "serveur",
+          "b": "serveuse",
+          "c": "service",
+          "d": "sert",
           "answer": "b"
         },
         {
           "id": 2,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
-          "answer": "d"
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: Est-ce que tu vois _________ voiture noire ?",
+          "a": "du",
+          "b": "de",
+          "c": "la",
+          "d": "l'",
+          "answer": "c"
         },
         {
           "id": 3,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: ___________ ton numéro de téléphone ?",
+          "a": "Il y a",
+          "b": "Quelle est",
+          "c": "Quel est",
+          "d": "Quels sont",
+          "answer": "c"
+        },
+        {
+          "id": 4,
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: Je te présente ________ frère et ________ amie.",
+          "a": "mon / son",
+          "b": "mon / sa",
+          "c": "ton / t'",
+          "d": "mon / ma",
           "answer": "a"
+        },
+        {
+          "id": 5,
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: Est-ce que tu as fait ________ tennis hier ?",
+          "a": "au",
+          "b": "du",
+          "c": "le",
+          "d": "de le",
+          "answer": "b"
+        },
+        {
+          "id": 6,
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: Il est ____(15h15)________.",
+          "a": "trois heures moins le quart",
+          "b": "trois heures plus le quart",
+          "c": "trois heures et quart",
+          "d": "trois heures et demi",
+          "answer": "c"
+        },
+        {
+          "id": 7,
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: Je viens ______ Allemagne.",
+          "a": "de",
+          "b": "d'",
+          "c": "la",
+          "d": "du",
+          "answer": "b"
+        },
+        {
+          "id": 8,
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: Je vais _________ Portugal.",
+          "a": "au",
+          "b": "en",
+          "c": "à",
+          "d": "aux",
+          "answer": "a"
+        },
+        {
+          "id": 9,
+          "question": "Sélectionnez le mot adéquat pour compléter la phrase suivante: Elles ______________ à la chorale du village.",
+          "a": "chante",
+          "b": "chanté",
+          "c": "chantent",
+          "d": "chanter",
+          "answer": "c"
         }
       ]
     },
@@ -103,62 +256,80 @@
       "test": "German",
       "uuid": 3,
       "groupId":3,
-      "description": "German Beginner Test",
+      "description": "Beginner Test",
       "imgUrl": "assets/images/cover_gr.svg",
       "questions": [
         {
           "id": 0,
-          "question": "German Question 1.",
-          "a": "'m going to work with",
-          "b": "'m going to work by",
-          "c": "go to work with,go to work with,go to work with,go to work with,go to work with",
-          "d": "go to work by",
-          "answer": "a"
-        },
-        {
-          "id": 1,
-          "question": "Sorry, but this chair is____.",
-          "a": "me",
-          "b": "mine",
-          "c": "my",
-          "d": "our",
+          "question": "Die Archäologie, die in der zweiten Hälfte des 20. Jahrhunderts einen enormen Aufschwung nahm, liefert wichtige ----.",
+          "a": "Dämpfe",
+          "b": "Erkenntnisse",
+          "c": "Vorschüsse",
+          "d": "Zufälle",
           "answer": "b"
         },
         {
+          "id": 1,
+          "question": "Um Kindern gesundheitsfördernde und umweltfreundliche Verhaltensweisen nahe zu bringen, ist es sehr wichtig, ihnen ---- für entsprechende Erfahrungen zu geben",
+          "a": "Gelegenheiten",
+          "b": "Gespräche",
+          "c": "Unterschiede",
+          "d": "Deutlichkeit",
+          "answer": "a"
+        },
+        {
           "id": 2,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
+          "question": "Der ---- Walfang ist im Jahr 1986 international verboten worden, weil besonders die Sowjetunion und Japan im Nordpazifik hunderttausende Wale töteten.",
+          "a": "köstliche",
+          "b": "ökologische",
+          "c": "giftige",
+          "d": "kommerzielle",
           "answer": "d"
         },
         {
           "id": 3,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
-          "answer": "a"
+          "question": "Erziehungsstile in der frühen und weiteren Kindheit können den Grund für psychische Fehlentwicklungen des davon ---- Kindes legen.",
+          "a": "unberührten",
+          "b": "betroffenen",
+          "c": "verdächtigen",
+          "d": "belohnten",
+          "answer": "b"
         },
         {
           "id": 4,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
-          "answer": "b"
+          "question": "Ein Fachbegriff, der von dem einen als ---- angesehen wird, kann von einem anderen Rezipienten nicht verstanden werden",
+          "a": "zwangsläufig",
+          "b": "overgänglich",
+          "c": "unschlüssig",
+          "d": "selbstverständlich",
+          "answer": "d"
         },
         {
           "id": 5,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
-          "answer": "b"
+          "question": "Wellness ist ein relativ freier Begriff, der körperliche Betätigung, seelisches Wohlbefinden und eine gesunde Lebensführung ----.",
+          "a": "pflegt",
+          "b": "betreut",
+          "c": "umfasst",
+          "d": "klagt",
+          "answer": "c"
+        },
+        {
+          "id": 6,
+          "question": "Der Mensch ---- Weisheit häufig mit dem Alter und kann vor allem im Rückblick auf die besten und schrecklichsten Momente in seinem Leben einen Sinn erkennen.",
+          "a": "erholt",
+          "b": "enthält",
+          "c": "besetzt",
+          "d": "verbindet",
+          "answer": "d"
+        },
+        {
+          "id": 7,
+          "question": "Gegen mögliche katastrophale Folgen durch das Absterben der Honigbienen versuchen Wissenschaftler ökologische Pläne in die Tat ----. ",
+          "a": "umzusetzen",
+          "b": "einzuhalten",
+          "c": "anzuschaffen",
+          "d": "zu verschreiben",
+          "answer": "a"
         }
       ]
     },
@@ -166,71 +337,89 @@
       "test": "Türkçe",
       "uuid": 4,
       "groupId":4,
-      "description": "Türkçe Temel Seviye Testi",
+      "description": "Temel Seviye Testi",
       "imgUrl": "assets/images/cover_tr.svg",
       "questions": [
         {
           "id": 0,
-          "question": "Türkçe Testi 1.",
-          "a": "'m going to work with",
-          "b": "'m going to work by",
-          "c": "go to work with,go to work with,go to work with,go to work with,go to work with",
-          "d": "go to work by",
+          "question": "Aşağıdaki cümlelerde yer alan birleşik sözcüklerden hangisinin yazımı yanlıştır?",
+          "a": "Gezdiğimiz yerlerdeki nesnelerin üzerine, onların hakettiği heyecanı duymamızı sağlayacak sorular iliştirilmemişti.",
+          "b": "Bütün bu güzellikler, onları göreceğim için kendimi ayrıcalıklı addetmeme rağmen bende kayıtsızlık uyandırıyordu.",
+          "c": "Nehri ve vadiyi seyreden iki kişi o anda yalnızca doğayla değil, birbirleriyle kurdukları dostluğu da dönüştürmekteydi.",
+          "d": "Bize hükmeden mutluluk arayışı ise bu arayışın dinamiklerini açığa çıkaran etkinliklerden biri seyahatlerimizdir",
           "answer": "a"
         },
         {
           "id": 1,
-          "question": "Sorry, but this chair is____.",
-          "a": "me",
-          "b": "mine",
-          "c": "my",
-          "d": "our",
+          "question": "Aşağıdaki beyitlerin hangisi ayraç içinde verilen ifadeyi örneklemez?",
+          "a": "Yok sende kanâat gözün aç olduğu oldur Rızkın erişir yoksa eğer subh eğer şâm (var olanla yetinmeme)",
+          "b": "Hâlin kime açsan sana der hikmeti vardır Öldürdü bizi âh bilinmez mi bu hikmet (bilgisiyle övünme)",
+          "c": "Yazık sana kim eyleyesin hırs u tama'dan Bir habbe için kendini âlemlere bed-nâm (küçük duruma düşme)",
+          "d": "Gör zahidi kim sâhib-i irşâd olayın der Dün mektebe vardı bugün üstâd olayın der (haddini bilmeme)",
           "answer": "b"
         },
         {
           "id": 2,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
-          "answer": "d"
-        },
-        {
-          "id": 3,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
-          "answer": "a"
-        },
-        {
-          "id": 4,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
+          "question": "İlk Çağ Anadolu uygarlıklarının dünya ortak mirasına katkıları hakkında araştırma yapan Serhat’ın aşağıdaki bilgilerden hangisine ulaşması beklenir?",
+          "a": "Çivi yazısının icat edilmesi",
+          "b": "Paranın ticaret hayatında görülmesi",
+          "c": "Tek tanrı anlayışının ortaya çıkması",
+          "d": "Alfabenin oluşturulması",
           "answer": "b"
         },
         {
+          "id": 3,
+          "question": "Aşağıdakilerden hangisi Millî Mücadele yıllarında Karadeniz bölgesindeki asayişsizliği önleyip TBMM’nin otoritesini sağlamak amacıyla kurulmuştur?",
+          "a": "Kuvay-ı Seyyare",
+          "b": "Kuvay-ı İnzibatiye",
+          "c": "Merkez Ordusu",
+          "d": "Teşkilat-ı Mahsusa",
+          "answer": "c"
+        },
+        {
+          "id": 4,
+          "question": "Aşağıdaki cümlelerin hangisinde “-ıntı,-untu/-üntü” ekinin kullanıldığı sözcük, kökü bakımından diğerlerinden farklıdır? ",
+          "a": "Bu bölgede yapılan kazılarda arkeologlar, eski uygarlıklara ait yeni buluntulara rastladılar.",
+          "b": "Kişi yersiz kuruntularından kurtulmak için dostlarına, arkadaşlarına daha fazla güvenmeli ve inanmalıdır.",
+          "c": "İçi süprüntü dolu küreği merdivenlerin dibindeki çöp kutusuna boşaltmak için dışarı çıktı.",
+          "d": "Kelimeyle kavram, dille düşünce arasındaki bağıntı üstüne yapılan tartışmalar eski çağlara kadar gider.",
+          "answer": "d"
+        },
+        {
           "id": 5,
-          "question": "Sorry, but this chair is____.",
-          "a": "me",
-          "b": "mine",
-          "c": "my",
-          "d": "our",
+          "question": "Aşağıda ayraç içinde verilen terimlerden hangisi, birlikte verildiği açıklamaya uygun değildir?",
+          "a": "Uyaklı beyit (Musarra)",
+          "b": "Özlü ve güzel anlamlı beyit (Taç beyit)",
+          "c": "Gazellerde şairin adının geçtiği beyit (Mahlas beyti)",
+          "d": "Bir gazelin en güzel beyti (Şah beyit)",
           "answer": "b"
         },
         {
           "id": 6,
-          "question": "What is the longest distance between two dots",
-          "a": "thirty-four",
-          "b": "one hundred",
-          "c": "one thousand",
-          "d": "one million",
+          "question": "Aşağıdaki dizelerin hangisinde, ayraç içinde verilen sanat yoktur? ",
+          "a": "Dolu rüzgârla çıkıp ufka giden yelkenli Gidişin seçtiğin akşam saatinden belli (Hüsnütalil) ",
+          "b": "Uçuyor rüzgâr gibi altımdaki küheylan Ne kadar dizginlesem yavaşlayacak değil (Mübalağa)",
+          "c": "Kuşlar küsmüş yuvaya, ağaçlar yaprak vermez Bu kavgalar bitecek, zulüm ebedî değil (Teşhis) ",
+          "d": "Gerçek, hayali aştı, ufuklar uzak değil En olmaz isteklere uzanmak yasak değil (Tezat)",
+          "answer": "a"
+        },
+        {
+          "id": 7,
+          "question": "Aşağıdakilerden hangisi, divan şiiriyle halk şiirinin birbirine yaklaştığının göstergelerinden biri değildir?",
+          "a": "Nedim ve Şeyh Galip’in hece vezni ile şiir yazması",
+          "b": "Gevherî’nin aruz vezniyle şiirler kaleme alması",
+          "c": "Bazı halk şairlerinin divan tertip etmesi",
+          "d": "Halk ve divan şairlerinin mahlas kullanması",
           "answer": "d"
+        },
+        {
+          "id": 8,
+          "question": "Aşağıdakilerin hangisinde bir bilgi yanlışı vardır?",
+          "a": "Türk edebiyatındaki ilk şairler tezkiresi, Ali Şir Nevayi’nin XV. yüzyılın sonlarına doğru Çağatay Türkçesiyle yazdığı Mecalisü’n-Nefais’tir.",
+          "b": "Garib-name adlı büyük mesnevisiyle tanınan Âşık Paşa, devrinin önemli düşünürlerinden biridir",
+          "c": "Gülşehrî’nin Çeng-name adlı eseri, hem dil hem de üslup yönünden devrinin önemli eserlerinden biridir.",
+          "d": "Divan sahibi olan Ahmedî’nin en iyi bilinen eserlerinden biri de İskender-name’dir.",
+          "answer": "c"
         }
       ]
     }

@@ -33,8 +33,8 @@ const Card = ({
   return (
     <div className="card" onClick={() => openTest()}>
       {isLoading ? (
-        <div className="ripple">
-          <Ripple color="#444546" size={100} thickness={5} />
+        <div className="loading">
+         <Ripple color="#1976d2" size={150} thickness={4} />
         </div>
       ) : (
         card
