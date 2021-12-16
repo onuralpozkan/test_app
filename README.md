@@ -4,7 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Description
 
-This is a react project for practice. It uses **Redux** for state management which used for getting products from fake api server and managing tests.
+This is a non-commercial react project for practice. It uses **Redux** for state management which used for getting products from fake api server and managing tests.
+
+It has a different language tests and answers gathered around the web. It is just a showcase for how tests
+can be handled with React and Redux. Your scores will be stored in local storage. You can look at results by 
+clicking 'Past Results' button.  
+
+Hope you enjoyed it!
 
 ## Installation
 
