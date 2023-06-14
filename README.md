@@ -25,9 +25,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Mock Rest Api for test data with Json-Server will start at port 8000.\
-Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
-
 #### Endpoints
 
 Base Url: http://localhost:8000
@@ -46,10 +43,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 To learn Redux, check out the [Redux documentation](https://redux.js.org/).
 
 ### Dependencies
-
-For json-server, check out [Json Server](https://www.npmjs.com/package/json-server).
-
-For fetching data, check out [Axios](https://www.npmjs.com/package/axios).
 
 For spinner component, check out [React CSS Only Spinner](https://www.npmjs.com/package/react-css-spinners).
 
