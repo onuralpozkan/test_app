@@ -1,10 +1,10 @@
 # Testing App created with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Vite](https://vitejs.dev/guide/).
 
 # Description
 
-This is a non-commercial react project for practice. It uses **Redux** for state management which used for getting products from fake api server and managing tests.
+This is a non-commercial react project for practice. It uses **Redux** for state management which used for getting and managing tests.
 
 It has a different language tests and answers gathered around the web. It is just a showcase for how tests
 can be handled with React and Redux. Your scores will be stored in local storage. You can look at results by 
@@ -20,15 +20,10 @@ In project directory, run  **npm install**.
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-#### Endpoints
-
-Base Url: http://localhost:8000
-- Tests: **/tests**
+Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in the browser.
 
 ## Tech Stack
 
@@ -37,6 +32,7 @@ Base Url: http://localhost:8000
 - JavaScript
 - React
 - Redux
+- Vite
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 

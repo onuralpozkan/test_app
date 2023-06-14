@@ -30,7 +30,7 @@ function App() {
       <div className="app-menu">
         <span className="result-btn">
           {JSON.parse(localStorage.getItem('result')) !== null &&
-          singleTestArr !== [] ? (
+          singleTestArr.length !== 0 ? (
             <Button
               icon={resultsIcon}
               label="Past Results"
